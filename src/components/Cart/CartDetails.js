@@ -61,7 +61,7 @@ class CartDetails extends React.Component {
                 <Avatar alt="Recipe" src={recipe.image.url} />
                 <ListItemText
                     primary={`${recipe.title} X${recipeList[item].length}`}
-                    secondary={`Pour ${recipe.servings} personnes`}
+                    secondary={`For ${recipe.servings} people`}
                 />
                 <Button
                     style={{ backgroundColor: 'salmon' }}

@@ -86,14 +86,14 @@ class Recipe extends React.Component {
                   classes={{ title: classes.title}}>
                     {this.props.title}
                 </div>}
-              subheader={`Pour ${this.props.servings} personnes`}
+              subheader={`For ${this.props.servings} people`}
               style={{ height: 100}}
             />
           
           <CardMedia
             className={classes.media}
             image={this.props.image.url}
-            title="Contemplative Reptile"
+            title="Recipe"
           />
           <CardContent>
             <Typography component="p">
