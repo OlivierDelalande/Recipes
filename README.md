@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+To get started :
+
+run in a folder git clone https://github.com/OlivierDelalande/Recipes.git
+cd Recipes
+npm i
+npm run start
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
