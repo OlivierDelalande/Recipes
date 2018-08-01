@@ -2,8 +2,7 @@ import { ADD_RECIPE, REMOVE_RECIPE, SORT_INGREDIENTS } from '../actions/types';
 
 const initialState = {
     recipes: [],
-    ingredients: null,
-    loading: false
+    ingredients: null
 }
 
 export default function (state = initialState, action) {
