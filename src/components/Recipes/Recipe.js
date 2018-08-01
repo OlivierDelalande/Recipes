@@ -73,7 +73,7 @@ class Recipe extends React.Component {
     const { instructions } = this.props;
     return instructions.length > 150 ? `${instructions.slice(0, 150)}...` : instructions;
   }
-  imagePath = (path) => `../../assets/${path}`;
+
   render() {
     const { classes } = this.props;
     return (
