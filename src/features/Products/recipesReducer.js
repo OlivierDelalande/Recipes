@@ -1,4 +1,4 @@
-import { INIT_RECIPES } from '../actions/types';
+import { INIT_RECIPES } from '../../shared/constants/ActionsTypes';
 
 const initialState = {
     recipeList: null,

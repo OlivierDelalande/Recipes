@@ -28,7 +28,7 @@ export const buildCumulatedIngredient = (ingredient, qty) => ({
         dpt: ingredient.dpt,
         qty: qty,
         unit: ingredient.unit
-    });
+});
 
 
 export const  buildRecipeModel = (recipes) => {

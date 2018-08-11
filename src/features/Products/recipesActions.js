@@ -1,7 +1,7 @@
-import { INIT_RECIPES, ADD_RECIPE, REMOVE_RECIPE } from './types';
+import { INIT_RECIPES, ADD_RECIPE, REMOVE_RECIPE } from '../../shared/constants/ActionsTypes';
 
-import { buildRecipeModel } from '../../model/recipes';
-import recipes from '../../data/recipes.json';
+import { buildRecipeModel } from '../../shared/model/recipes';
+import recipes from '../../shared/data/recipes.json';
 
 export const initRecipes = () => {
     const recipeList = buildRecipeModel(recipes);

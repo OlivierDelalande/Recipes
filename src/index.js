@@ -7,7 +7,7 @@ import { createStore } from 'redux';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import reducer from './store/reducers/index';
+import reducer from './shared/reducers';
 
 const store = createStore(
     reducer, /* preloadedState, */

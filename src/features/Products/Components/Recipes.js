@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux'
-import { initRecipes, addRecipe, removeRecipe } from '../../store/actions/recipesActions';
-import Recipe from '../../components/Recipes/Recipe';
+import { INIT_RECIPES, ADD_RECIPE, REMOVE_RECIPE } from '../../../shared/constants/ActionsTypes';
+import Recipe from './Recipe';
 
 
 class Recipes extends React.Component {
@@ -60,9 +60,9 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        initRecipes: () => dispatch(initRecipes()),
-        addRecipe: (recipe) => dispatch(addRecipe(recipe)),
-        removeRecipe: (recipeId) => dispatch(removeRecipe(recipeId))
+        initRecipes: () => dispatch(INIT_RECIPES()),
+        addRecipe: (recipe) => dispatch(ADD_RECIPE(recipe)),
+        removeRecipe: (recipeId) => dispatch(REMOVE_RECIPE(recipeId))
     }
 }
 export default connect(
