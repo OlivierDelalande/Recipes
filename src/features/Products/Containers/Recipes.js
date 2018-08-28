@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux'
-import { initRecipes, addRecipe, removeRecipe } from '../../../shared/constants/ActionsTypes';
-import Recipe from './Recipe';
+import { initRecipes, addRecipe, removeRecipe } from '../Actions/recipesActions';
+import Recipe from '../Components/Recipe';
 
 
 class Recipes extends React.Component {

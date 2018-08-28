@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import Layout from './hoc/Layout/Layout';
-import Recipes from './features/Products/Components/Recipes';
-import Cart from './features/Cart/Components/Cart';
+import Recipes from './features/Products/Containers/Recipes';
+import Cart from './features/Cart/Containers/Cart';
 
 class App extends Component {
   state = {

@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import _ from 'lodash';
 import { connect } from 'react-redux'
-import CartDetails from './CartDetails';
-import { sortIngredients } from '../cartActions';
-import { removeRecipe } from '../../Products/recipesActions';
+import CartDetails from '../Components/CartDetails';
+import { sortIngredients } from '../Actions/cartActions';
+import { removeRecipe } from '../../Products/Actions/recipesActions';
 
 class Cart extends Component {
     componentWillMount() {

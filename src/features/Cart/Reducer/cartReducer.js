@@ -1,4 +1,4 @@
-import { ADD_RECIPE, REMOVE_RECIPE, SORT_INGREDIENTS } from '../../shared/constants/ActionsTypes';
+import { ADD_RECIPE, REMOVE_RECIPE, SORT_INGREDIENTS } from '../../../shared/constants/ActionsTypes';
 
 const initialState = {
     recipes: [],

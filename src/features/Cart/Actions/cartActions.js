@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import {SORT_INGREDIENTS} from '../../shared/constants/ActionsTypes';
-import { buildCumulatedIngredient } from '../../shared/model/recipes';
+import {SORT_INGREDIENTS} from '../../../shared/constants/ActionsTypes';
+import { buildCumulatedIngredient } from '../../../shared/model/recipes';
 
 export const sortIngredients = (recipes) => {
     const ingredients = _.flatten(recipes.map(item => item.ingredients));
